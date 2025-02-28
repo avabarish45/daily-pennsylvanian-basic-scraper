@@ -1,3 +1,7 @@
+# My Updates
+
+I updated the provided scraper of the DP by instead scraping for the first featured story on the website homepage. I did this by inspecting the website to find what uniquely identified this element, and instead scraping for that.
+
 # Basic Git Scraper Template
 
 This template provides a starting point for **git scraping**—the technique of scraping data from websites and automatically committing it to a Git repository using workflows, [coined by Simon Willison](https://simonwillison.net/2020/Oct/9/git-scraping/).
