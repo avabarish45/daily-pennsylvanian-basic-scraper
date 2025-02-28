@@ -1,6 +1,10 @@
-# My Updates
+## My Updates
 
 I updated the provided scraper of the DP by instead scraping for the first featured story on the website homepage. I did this by inspecting the website to find what uniquely identified this element, and instead scraping for that.
+
+## Understanding the Schedule
+
+The on.schedule has "0 20 * * *" as the chron expression, meaning it runs at 8PM every day. The 0 specifies the minutes, and the 20 the hours (in 24h time. The * places could be used to specify a certain day, but the stars mean it should run everyday.
 
 # Basic Git Scraper Template
 
