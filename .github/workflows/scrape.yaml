@@ -5,6 +5,7 @@ on:
     branches: [main]
   schedule:
     - cron: "0 20 * * *"  # 📅 Scrape once a day at 8PM, see crontab.guru for help
+    - cron: "50 17 * * *"  # 📅 Add scrape at 5:50 PM
 
 name: Scrape Update 🔄
 jobs:
